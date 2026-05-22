@@ -1,0 +1,184 @@
+/* BODY */
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+/* FONDO PAGINA 1 */
+.fondo1 {
+
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200");
+}
+
+/* FONDO PAGINA 2 */
+.fondo2 {
+
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200");
+}
+
+/* FONDO PAGINA 3 */
+.fondo3 {
+
+    background-image: url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200");
+}
+
+/* CONTENEDOR */
+.contenedor {
+
+    width: 70%;
+
+    margin: auto;
+
+    margin-top: 40px;
+
+    margin-bottom: 40px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: 30px;
+
+    border-radius: 25px;
+}
+
+/* TITULO */
+.titulo {
+
+    font-size: 60px;
+
+    color: #4d6c73;
+
+    text-shadow: 3px 3px 5px gray;
+}
+
+/* SUBTITULO */
+.subtitulo {
+
+    font-size: 22px;
+
+    margin-top: 20px;
+}
+
+/* IMAGEN */
+.imagen {
+
+    width: 400px;
+
+    height: 250px;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    object-fit: cover;
+}
+
+/* INPUTS */
+input {
+
+    width: 250px;
+
+    padding: 12px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    border: 1px solid gray;
+
+    font-size: 16px;
+}
+
+/* BOTONES */
+button {
+
+    background-color: #7fc8a9;
+
+    border: none;
+
+    padding: 14px;
+
+    margin-top: 20px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+/* HOVER */
+button:hover {
+
+    background-color: #5da88b;
+}
+
+/* CIRCULO */
+.circulo {
+
+    width: 140px;
+
+    height: 140px;
+
+    background-color: #a8dadc;
+
+    border-radius: 100%;
+
+    margin: auto;
+
+    margin-top: 30px;
+
+    animation: respirar 4s infinite;
+}
+
+/* ANIMACION */
+@keyframes respirar {
+
+    0% {
+
+        transform: scale(1);
+    }
+
+    50% {
+
+        transform: scale(1.5);
+    }
+
+    100% {
+
+        transform: scale(1);
+    }
+}
+
+/* MENSAJE ZEN */
+#mensajeZen {
+
+    font-size: 28px;
+
+    color: darkgreen;
+
+    margin-top: 30px;
+
+    font-weight: bold;
+}
+
+/* FRASE */
+#frase {
+
+    font-size: 30px;
+
+    color: darkblue;
+
+    margin-top: 30px;
+
+    font-weight: bold;
+}
